@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔄 Exchange-CRM Integration
+# Exchange-CRM Integration
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
@@ -20,42 +20,42 @@ A powerful, enterprise-grade integration between Exchange Server 2019+ and brows
 
 ---
 
-## 🌟 Overview
+## Overview
 
 The Exchange-CRM Integration system bridges the gap between Microsoft Exchange Server and modern CRM applications, providing a unified interface for email, calendar, and contact management. Built with security and performance in mind, it leverages Azure AD authentication and implements a zero-trust security model.
 
 ### Key Benefits
 
-- 🔒 **Enterprise Security**: Zero-trust architecture with Azure AD integration
-- 🚀 **High Performance**: Redis caching and optimized data handling
-- 🔄 **Real-time Sync**: Instant updates across all integrated systems
-- 🎯 **Seamless UX**: Unified interface within existing CRM
+- **Enterprise Security**: Zero-trust architecture with Azure AD integration
+- **High Performance**: Redis caching and optimized data handling
+- **Real-time Sync**: Instant updates across all integrated systems
+- **Seamless UX**: Unified interface within existing CRM
 - 📱 **Responsive Design**: Full functionality across all devices
 
-## ✨ Features
+## Features
 
-### 📧 Mail Integration
+### Mail Integration
 - Real-time email synchronization
 - Rich text message composition
 - Secure attachment handling
 - Advanced search and filtering
 - Hierarchical folder management
 
-### 📅 Calendar Integration
+### Calendar Integration
 - Interactive calendar views (Day/Week/Month)
 - Drag-and-drop event management
 - Recurring event support
 - Attendee management with status tracking
 - Resource booking integration
 
-### 👥 Contact Integration
+### Contact Integration
 - Bi-directional contact sync
 - Advanced contact search
 - Comprehensive contact profiles
 - Multiple email/phone support
 - Business relationship tracking
 
-## 🏗 Architecture
+## Architecture
 
 ### System Overview
 ```mermaid
@@ -89,7 +89,7 @@ graph TD
 - Redis Cache
 - Existing CRM Systems
 
-## 🛠 Technical Stack
+## Technical Stack
 
 ### Frontend Technologies
 ```typescript
@@ -115,7 +115,7 @@ graph TD
 }
 ```
 
-## 📚 Documentation
+## Documentation
 
 - [Installation Guide](./docs/installation.md)
 - [API Documentation](./docs/api.md)
@@ -123,7 +123,7 @@ graph TD
 - [Development Guide](./docs/development.md)
 - [Deployment Guide](./docs/deployment.md)
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone the repository
@@ -141,15 +141,12 @@ docker-compose up -d
 npm start
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🎯 Roadmap
+## Roadmap
 
 - [ ] OAuth 2.0 Device Flow Support
 - [ ] Multi-tenant Architecture
@@ -157,13 +154,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Advanced Analytics Dashboard
 - [ ] Mobile Application Support
 
-## 👨‍💻 Author
+## Author
 
 **George Nassef**
 - GitHub: [@georgenassef](https://github.com/georgenassef)
 - LinkedIn: [George Nassef](https://linkedin.com/in/georgenassef)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Microsoft Exchange Team
 - FastAPI Community
@@ -174,6 +171,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-Made with ❤️ by George Nassef
+Made by George Nassef
 
 </div>
